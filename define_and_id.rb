@@ -9,19 +9,17 @@
 
 # YOU DO the rest:
 
-
+#Checks to see if the string "Hello" is included in the string "Hello World"
 "Hello World".include?("Hello")
 
-
+#Checks to see if the string "Hello World" ends with the string "Hello"
 "Hello World".end_with?("Hello")
 
-
+#Checks to see if the string "Hello World" ends with the string "rld"
 "Hello World".end_with?("rld")
 
-
+#Checks to see if the int 12 is even.
 12.even?
 
-
+#Rounds the int 18 to the next whole number
 18.next
-
-
