@@ -9,11 +9,10 @@
 #  call length on the variable, print it out
 
 string = "abcdefg"
-puts string.upcase
-puts string.downcase
-puts string.reverse
-puts string.length
-
+#puts string.upcase
+#puts string.downcase
+#puts string.reverse
+#puts string.length
 
 # =================================
 # PART 2
@@ -34,3 +33,10 @@ puts user_name.clear
 
 
 # 2: Do some research (either testing out with your own code or Googling) to build an understanding of what the `!` does, when at the end of a method name. Show your understading by providing an example and writing an explanation.
+
+#Appending ! to the end of applicabale methods makes the object return itself rather than a copy of itself, in other words, methods on objects that have been appended with ! directly modify that object, meaning that in the case of string.upcase!, any methods following that method will be additive.
+
+#Uncomment line 40 to see the difference
+#puts string.upcase!
+puts string.upcase
+puts string.reverse
